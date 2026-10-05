@@ -1,0 +1,24 @@
+# Render Blueprint - single web service: builds the React app and serves it from the API.
+services:
+  - type: web
+    name: responsive-job-portal
+    runtime: node
+    plan: starter            # a persistent disk requires a paid plan
+    buildCommand: npm install && npm run build
+    startCommand: npm start
+    healthCheckPath: /api/health
+    envVars:
+      - key: NODE_VERSION
+        value: 22.13.0
+      - key: NODE_ENV
+        value: production
+      - key: JWT_SECRET
+        generateValue: true  # Render generates a strong random secret
+      - key: JWT_EXPIRES_IN
+        value: 1h
+      - key: DATABASE_PATH
+        value: /var/data/jobportal.db
+    disk:
+      name: sqlite-data
+      mountPath: /var/data
+      sizeGB: 1

@@ -1,0 +1,66 @@
+[
+  {
+    "id": 1,
+    "title": "Frontend Developer",
+    "company": "Tech Solutions",
+    "location": "Bangalore",
+    "type": "Full Time",
+    "description": "Develop responsive web interfaces using React and Bootstrap."
+  },
+  {
+    "id": 2,
+    "title": "UI/UX Designer",
+    "company": "Creative Minds Studio",
+    "location": "Pune",
+    "type": "Part Time",
+    "description": "Design clean and modern user interfaces for web and mobile apps."
+  },
+  {
+    "id": 3,
+    "title": "React Developer Intern",
+    "company": "Webnest Technologies",
+    "location": "Hyderabad",
+    "type": "Internship",
+    "description": "Assist in building React components and learn modern frontend workflows."
+  },
+  {
+    "id": 4,
+    "title": "Backend Developer",
+    "company": "CloudCore Systems",
+    "location": "Chennai",
+    "type": "Full Time",
+    "description": "Build and maintain scalable server-side applications and REST APIs."
+  },
+  {
+    "id": 5,
+    "title": "Software QA Tester",
+    "company": "BrightByte Labs",
+    "location": "Bangalore",
+    "type": "Part Time",
+    "description": "Test web applications and report bugs to ensure product quality."
+  },
+  {
+    "id": 6,
+    "title": "Full Stack Developer Intern",
+    "company": "NextGen Softworks",
+    "location": "Remote",
+    "type": "Internship",
+    "description": "Work on both frontend and backend features under mentor guidance."
+  },
+  {
+    "id": 7,
+    "title": "Product Manager",
+    "company": "Innovate Hub",
+    "location": "Mumbai",
+    "type": "Full Time",
+    "description": "Coordinate between teams and manage product roadmap and features."
+  },
+  {
+    "id": 8,
+    "title": "Graphic Designer",
+    "company": "PixelCraft Studio",
+    "location": "Delhi",
+    "type": "Part Time",
+    "description": "Create visual content and marketing assets for digital campaigns."
+  }
+]
